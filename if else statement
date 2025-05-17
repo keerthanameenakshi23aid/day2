@@ -1,0 +1,17 @@
+#include<stdio.h>
+
+int main()
+
+{
+    int m1,m2,m3,m4,m5;
+    scanf("%d%d%d%d%d",&m1,&m2,&m3,&m4,&m5);
+    int sum=m1+m2+m3+m4+m5;
+    int avg=sum/5;
+    if(avg>=90) printf("O");
+    else if(avg>=80) printf("A");
+    else if(avg>=70) printf("B");
+    else if(avg>=60) printf("C");
+    else if(avg>=40) printf("D");
+    else printf("good");
+    return 0;
+}
